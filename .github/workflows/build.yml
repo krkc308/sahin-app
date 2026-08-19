@@ -1,5 +1,5 @@
 name: Build APK
- 
+
 on:
   push:
     branches: [ main ]
@@ -32,3 +32,4 @@ jobs:
       with:
         name: package
         path: ${{ steps.buildozer.outputs.filename }}
+
